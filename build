@@ -9,7 +9,7 @@ pipeline {
   environment {
     DOCKER_REGISTRY = "rajasindhu.jfrog.io"
     DOCKER_REPOSITORY = "docker-helloworld-dev-local"
-    IMAGE_NAME = "hello-world-java"
+    IMAGE_NAME = "hello-world-python"
     IMAGE_TAG = "1.${BUILD_NUMBER}"
     DOCKER_CREDENTIAL_ID = "jfrog-credential"
   }
